@@ -148,30 +148,26 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            This research tackles the challenge of enabling
-robots to efficiently perform interactive exploration and closedloop
-planning when faced with ambiguous human instructions
-in unfamiliar environments. Existing Visual Language Model
-(VLM)-based approaches often fall short due to limited environmental
-knowledge and dependence on externally provided
-interactions, hindering their ability to interpret and respond to
-vague instructions such as facing task“I’m really thirsty”, the
-robot needs explor weither it on a table or in a fridge in truly
-environment. To address this, we propose AIDE (Affordanceaware
-Interactive Decision-making and Environment-grounded
-Planning for Ambiguous Tasks), a novel online-offline planning
-framework that integrates interactive exploration with visuallanguage
-reasoning. AIDE employs VLMs to generate executable
-steps, including affordance reasoning and tool operation
-guidance, etc. It supports zero-shot understanding of ambiguous
-commands through scene interaction. It further augments
-sample data from online planning to construct a library of over
-1,000 task samples, enabling efficient offline planning with realtime
-responsiveness. Extensive experiments in both simulation
-and physical robot settings show that AIDE achieves over 70%
-accuracy in task execution and supports closed-loop decisionmaking
-at 10 Hz, outperforming existing VLM-based planners
-in diverse open-world scenarios.
+            This study aims to address the challenge of enabling robots
+            to perform interactive exploration and exploitation efficiently
+            when faced with ambiguous human instructions in unfamiliar environments. Faced with ambiguous instructions like “I
+            am thirsty”, existing methods based on vision-language models (VLMs) frequently fail to initiate or sustain a series of
+            interactions to search for relevant items—such as drinks or
+            cups, due to their limited environmental knowledge, dependence on externally provided interactions, and inefficient reasoning, which impede their ability to parse and respond to
+            ambiguous instructions in real time. To tackle this challenge,
+            we introduce the Affordance-Aware Interactive DecisionMaking and Environment-Grounded Planning for Ambiguous Tasks (AIDE), an innovative hybrid online-offline planning framework that integrates interactive exploration with
+            visual-language reasoning. AIDE employs VLMs to generate executable steps, encompassing affordance reasoning and
+            tool operation guidance, thereby facilitating zero-shot understanding of ambiguous instructions through interactive scene
+            exploration. Moreover, AIDE expands the sample data from
+            online planning to create a library, comprising over 1,000 task
+            samples, thereby facilitating efficient offline planning while
+            maintaining real-time responsiveness. Comprehensive experiments conducted in both simulation and physical settings
+            demonstrate that AIDE achieves an accuracy rate exceeding
+            70% in task planning. And particularly in physical experiments, AIDE achieves over 95% accuracy in the closed-loop
+            continuous decision-making process. Moreover, the offline
+            method supports closed-loop decision-making at frequencies
+            of up to 10 Hz. These results highlight its superior performance compared to existing VLM-based planners in diverse
+            open-world scenarios.
           </p>
         </div>
       </div>
